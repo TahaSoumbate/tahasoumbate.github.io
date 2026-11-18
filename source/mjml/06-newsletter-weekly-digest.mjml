@@ -1,0 +1,64 @@
+<mjml>
+  <mj-head>
+    <mj-title>The Weekly Brief #42</mj-title>
+    <mj-preview>5 minutes to know what matters this week.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#d2f4ea" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#1aa179" align="left" font-weight="900" padding="0 0 0px">The Weekly Brief</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="4px 40px 24px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="190" bgcolor="#1aa179" style="font-family:Helvetica,Arial,sans-serif;height:190px;background-color:#1aa179;border-radius:10px;font-size:30px;font-weight:800;color:#ffffff">Top story</td></tr></table></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#1aa179" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#d2f4ea;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#1aa179">Issue #42</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">Why small teams ship faster</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 24px">Fewer meetings, clear owners and short feedback loops. We asked 12 founders how they keep their speed.</mj-text>
+        <mj-button href="#" background-color="#1aa179" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Read the story</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 24px" background-color="#ffffff">
+      <mj-column>
+        <mj-divider border-color="#e5e7eb" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="28px 40px 0" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="19px" line-height="25px" color="#111827" align="left" font-weight="700" padding="0 0 12px">Also this week</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 32px 12px" background-color="#ffffff">
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#1aa179" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#1aa179;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Design</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">5 UI trends for 2027</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">What's in, what's out, and what's here to stay.</mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#1f2937" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#1f2937;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Tools</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Our favourite free tools</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">A short list we actually use every day.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">The Weekly Brief &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at The Weekly Brief. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

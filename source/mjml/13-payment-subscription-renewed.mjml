@@ -1,0 +1,60 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your Pro plan has renewed</mj-title>
+    <mj-preview>Thanks for staying with Cloudly Pro.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#cfe2ff" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#0a58ca" align="left" font-weight="900" padding="0 0 0px">Cloudly</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#0a58ca" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#cfe2ff;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#0a58ca">Subscription</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">Your Pro plan has renewed</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px">Thanks for staying with us! Your subscription is active for another year.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 32px 0" background-color="#cfe2ff">
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Plan</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>Pro yearly</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Amount</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>$96.00</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Next billing</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>18 Nov 2027</b></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 32px" background-color="#ffffff">
+      <mj-column>
+        <mj-button href="#" background-color="#0a58ca" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Manage subscription</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="14px" line-height="22px" color="#6b7280" align="left" font-weight="normal" padding="0 0 0px">Want to change plans? You can upgrade, downgrade or cancel at any time.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Cloudly &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Cloudly. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

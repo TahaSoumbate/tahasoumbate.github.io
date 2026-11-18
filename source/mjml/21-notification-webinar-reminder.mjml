@@ -1,0 +1,56 @@
+<mjml>
+  <mj-head>
+    <mj-title>Starts in 1 hour: Modern CSS</mj-title>
+    <mj-preview>Your webinar starts at 18:00.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#e2d9f3" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#59359a" align="left" font-weight="900" padding="0 0 0px">Web Dev Summit</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="44px 40px" background-color="#59359a">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#59359a" align="center" font-weight="normal" padding="0 0 16px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#ffffff;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#59359a">Reminder</span></mj-text>
+        <mj-text font-size="34px" line-height="41px" color="#ffffff" align="center" font-weight="800" padding="0 0 16px">Your webinar starts in 1 hour</mj-text>
+        <mj-text font-size="17px" line-height="26px" color="#e2d9f3" align="center" font-weight="normal" padding="0 0 24px">Modern CSS layouts: grid, container queries and more.</mj-text>
+        <mj-button href="#" background-color="#ffffff" color="#59359a" border-radius="999px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="center">Join the webinar</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 32px 0" background-color="#e2d9f3">
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Date</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>Thu, 20 Nov</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Time</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>18:00 GMT</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Host</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>Yasmine A.</b></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="14px" line-height="22px" color="#6b7280" align="left" font-weight="normal" padding="0 0 0px">Tip: join 5 minutes early to test your audio.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Web Dev Summit &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Web Dev Summit. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

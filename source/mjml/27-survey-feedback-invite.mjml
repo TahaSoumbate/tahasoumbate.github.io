@@ -1,0 +1,46 @@
+<mjml>
+  <mj-head>
+    <mj-title>Help us improve Flowbase</mj-title>
+    <mj-preview>3 minutes, and you get 1 month free.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#d1e7dd" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#146c43" align="left" font-weight="900" padding="0 0 0px">Flowbase</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="4px 40px 24px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="120" bgcolor="#146c43" style="font-family:Helvetica,Arial,sans-serif;height:120px;background-color:#146c43;border-radius:10px;font-size:30px;font-weight:800;color:#ffffff">3 minutes</td></tr></table></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">Help us improve Flowbase</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 24px">Tell us what works and what doesn't. Our product team reads every answer.</mj-text>
+        <mj-button href="#" background-color="#146c43" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Start the survey</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column background-color="#d1e7dd" border-radius="8px" padding="16px 18px" border-left="4px solid #146c43">
+        <mj-text font-size="15px" line-height="23px" color="#374151" align="left" font-weight="normal" padding="0 0 0px"><b>Thank you gift:</b> finish the survey and get 1 month of Pro for free.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Flowbase &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Flowbase. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

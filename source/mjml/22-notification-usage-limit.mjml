@@ -1,0 +1,61 @@
+<mjml>
+  <mj-head>
+    <mj-title>You've used 90% of your storage</mj-title>
+    <mj-preview>Upgrade to keep uploading files.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#ffe5d0" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#ca6510" align="left" font-weight="900" padding="0 0 0px">Cloudly</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#ca6510" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#ffe5d0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ca6510">Storage</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">You've used 90% of your storage</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px">When you reach 100%, you won't be able to upload new files.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="4px 34px 28px" background-color="#ffffff">
+      <mj-column vertical-align="top" padding="0 6px 12px" inner-background-color="#ffe5d0" inner-border-radius="10px">
+        <mj-spacer height="18px" />
+        <mj-text font-size="26px" line-height="40px" color="#ca6510" align="center" font-weight="normal" padding="0 0 2px"><b>90 GB</b></mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="center" font-weight="normal" padding="0 0 0px">Used</mj-text>
+        <mj-spacer height="18px" />
+      </mj-column>
+      <mj-column vertical-align="top" padding="0 6px 12px" inner-background-color="#ffe5d0" inner-border-radius="10px">
+        <mj-spacer height="18px" />
+        <mj-text font-size="26px" line-height="40px" color="#ca6510" align="center" font-weight="normal" padding="0 0 2px"><b>100 GB</b></mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="center" font-weight="normal" padding="0 0 0px">Plan limit</mj-text>
+        <mj-spacer height="18px" />
+      </mj-column>
+      <mj-column vertical-align="top" padding="0 6px 12px" inner-background-color="#ffe5d0" inner-border-radius="10px">
+        <mj-spacer height="18px" />
+        <mj-text font-size="26px" line-height="40px" color="#ca6510" align="center" font-weight="normal" padding="0 0 2px"><b>10 GB</b></mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="center" font-weight="normal" padding="0 0 0px">Left</mj-text>
+        <mj-spacer height="18px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 32px" background-color="#ffffff">
+      <mj-column>
+        <mj-button href="#" background-color="#ca6510" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Upgrade my plan</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Cloudly &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Cloudly. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

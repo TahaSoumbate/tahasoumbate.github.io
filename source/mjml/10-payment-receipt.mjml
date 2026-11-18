@@ -1,0 +1,60 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your receipt from Kova</mj-title>
+    <mj-preview>Payment received: $112.00.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#d1e7dd" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#146c43" align="left" font-weight="900" padding="0 0 0px">Kova</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#146c43" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#d1e7dd;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#146c43">Paid</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">Payment received</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px">Thanks, Adam! Here's your receipt for your recent purchase.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 32px 0" background-color="#d1e7dd">
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Receipt</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>#10482</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Date</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>18 Nov 2026</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Paid with</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>Visa 4242</b></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-table font-size="15px" color="#374151" padding="0"><tr><td style="padding:10px 0;border-bottom:1px solid #e5e7eb;">Wireless Headphones &times; 1</td><td align="right" style="padding:10px 0;border-bottom:1px solid #e5e7eb;">$89.00</td></tr><tr><td style="padding:10px 0;border-bottom:1px solid #e5e7eb;">USB-C Cable &times; 2</td><td align="right" style="padding:10px 0;border-bottom:1px solid #e5e7eb;">$18.00</td></tr><tr><td style="padding:10px 0;border-bottom:1px solid #e5e7eb;">Shipping</td><td align="right" style="padding:10px 0;border-bottom:1px solid #e5e7eb;">$5.00</td></tr><tr><td style="padding:14px 0 0;font-weight:800;color:#111827;font-size:16px;">Total</td><td align="right" style="padding:14px 0 0;font-weight:800;color:#111827;font-size:16px;">$112.00</td></tr></mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 32px" background-color="#ffffff">
+      <mj-column>
+        <mj-button href="#" background-color="#146c43" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Download PDF</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Kova &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Kova. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

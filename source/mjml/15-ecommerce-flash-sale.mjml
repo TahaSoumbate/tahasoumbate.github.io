@@ -1,0 +1,64 @@
+<mjml>
+  <mj-head>
+    <mj-title>Flash sale: 50% off everything</mj-title>
+    <mj-preview>48 hours only. Up to 50% off.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#f7d6e6" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#ab296a" align="left" font-weight="900" padding="0 0 0px">Luma</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="44px 40px" background-color="#ab296a">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#ab296a" align="center" font-weight="normal" padding="0 0 16px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#ffffff;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ab296a">Ends Sunday</span></mj-text>
+        <mj-text font-size="34px" line-height="41px" color="#ffffff" align="center" font-weight="800" padding="0 0 16px">FLASH SALE</mj-text>
+        <mj-text font-size="17px" line-height="26px" color="#f7d6e6" align="center" font-weight="normal" padding="0 0 24px">Up to <b>50% off</b> everything in store. 48 hours only.</mj-text>
+        <mj-button href="#" background-color="#ffffff" color="#ab296a" border-radius="999px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="center">Shop the sale</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="28px 40px 0" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="19px" line-height="25px" color="#111827" align="left" font-weight="700" padding="0 0 12px">Best sellers</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 32px 12px" background-color="#ffffff">
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#ab296a" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#ab296a;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">$29</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Linen Shirt</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">Was $58</mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#1f2937" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#1f2937;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">$19</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Straw Hat</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">Was $38</mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#ab296a" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#ab296a;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">$34</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Sandals</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">Was $68</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column background-color="#f7d6e6" border-radius="8px" padding="16px 18px" border-left="4px solid #ab296a">
+        <mj-text font-size="15px" line-height="23px" color="#374151" align="left" font-weight="normal" padding="0 0 0px">Use code <b>FLASH50</b> at checkout.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Luma &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Luma. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

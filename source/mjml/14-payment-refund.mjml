@@ -1,0 +1,47 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your refund is on the way</mj-title>
+    <mj-preview>We've refunded $89.00 to your Visa.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#d2f4ea" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#1aa179" align="left" font-weight="900" padding="0 0 0px">Kova</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#1aa179" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#d2f4ea;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#1aa179">Refund</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">Your refund is on the way</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px">We've processed your refund. It usually reaches your account in 5 to 10 business days.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="17px" line-height="22px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Refunded items</mj-text>
+        <mj-table font-size="15px" color="#374151" padding="0"><tr><td style="padding:10px 0;border-bottom:1px solid #e5e7eb;">Wireless Headphones &times; 1</td><td align="right" style="padding:10px 0;border-bottom:1px solid #e5e7eb;">$89.00</td></tr><tr><td style="padding:14px 0 0;font-weight:800;color:#111827;font-size:16px;">Total</td><td align="right" style="padding:14px 0 0;font-weight:800;color:#111827;font-size:16px;">$89.00</td></tr></mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="14px" line-height="22px" color="#6b7280" align="left" font-weight="normal" padding="0 0 0px">The money goes back to the card you paid with (Visa ending 4242).</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Kova &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Kova. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,54 @@
+<mjml>
+  <mj-head>
+    <mj-title>The winter collection is here</mj-title>
+    <mj-preview>New coats, knitwear and boots.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#e2d9f3" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#59359a" align="left" font-weight="900" padding="0 0 0px">Atelier</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="4px 40px 24px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="200" bgcolor="#59359a" style="font-family:Helvetica,Arial,sans-serif;height:200px;background-color:#59359a;border-radius:10px;font-size:30px;font-weight:800;color:#ffffff">Winter Collection</td></tr></table></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#59359a" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#e2d9f3;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#59359a">New in</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">Just landed: winter 2026</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 24px">Warm coats, soft knitwear and boots made to last. Be the first to shop the new collection.</mj-text>
+        <mj-button href="#" background-color="#59359a" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Shop new arrivals</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 32px 12px" background-color="#ffffff">
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#59359a" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#59359a;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Coats</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Wool overcoat</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">$189</mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#1f2937" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#1f2937;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Knitwear</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Merino sweater</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">$79</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Atelier &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Atelier. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

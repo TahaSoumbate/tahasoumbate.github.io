@@ -1,0 +1,51 @@
+<mjml>
+  <mj-head>
+    <mj-title>Karim commented on Homepage redesign</mj-title>
+    <mj-preview>"Looks great! One small change..."</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#e0cffc" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#520dc2" align="left" font-weight="900" padding="0 0 0px">Taskflow</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#520dc2" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#e0cffc;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#520dc2">New comment</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">Karim commented on your task</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px">Homepage redesign &middot; Marketing board</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column background-color="#e0cffc" border-radius="8px" padding="16px 18px" border-left="4px solid #520dc2">
+        <mj-text font-size="15px" line-height="23px" color="#374151" align="left" font-weight="normal" padding="0 0 0px">&ldquo;Looks great! Can we make the main button a bit bigger on mobile? Otherwise ready to ship.&rdquo;</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 32px" background-color="#ffffff">
+      <mj-column>
+        <mj-button href="#" background-color="#520dc2" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Reply to Karim</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="14px" line-height="22px" color="#6b7280" align="left" font-weight="normal" padding="0 0 0px">You get this email because you're assigned to this task.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Taskflow &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Taskflow. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,63 @@
+<mjml>
+  <mj-head>
+    <mj-title>This week's best recipes</mj-title>
+    <mj-preview>3 new recipes and a baking tip from our kitchen.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#ffe5d0" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#ca6510" align="left" font-weight="900" padding="0 0 0px">Bake & Co</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="44px 40px" background-color="#ca6510">
+      <mj-column>
+        <mj-text font-size="34px" line-height="41px" color="#ffffff" align="center" font-weight="800" padding="0 0 16px">Fresh from the oven</mj-text>
+        <mj-text font-size="17px" line-height="26px" color="#ffe5d0" align="center" font-weight="normal" padding="0 0 24px">Three new recipes our readers loved this week, plus a tip for a softer crumb.</mj-text>
+        <mj-button href="#" background-color="#ffffff" color="#ca6510" border-radius="999px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="center">Visit the blog</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="28px 40px 0" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="19px" line-height="25px" color="#111827" align="left" font-weight="700" padding="0 0 12px">Popular this week</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 32px 12px" background-color="#ffffff">
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#ca6510" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#ca6510;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Bread</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Easy sourdough</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">No mixer needed.</mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#1f2937" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#1f2937;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Cake</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Lemon drizzle</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">Ready in 45 minutes.</mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#ca6510" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#ca6510;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Cookies</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Brown butter cookies</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">Crispy edges, soft centre.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column background-color="#ffe5d0" border-radius="8px" padding="16px 18px" border-left="4px solid #ca6510">
+        <mj-text font-size="15px" line-height="23px" color="#374151" align="left" font-weight="normal" padding="0 0 0px"><b>Baking tip:</b> rest your dough in the fridge overnight for a deeper flavour.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Bake & Co &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Bake & Co. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,80 @@
+<mjml>
+  <mj-head>
+    <mj-title>DevHub monthly: November</mj-title>
+    <mj-preview>Our community grew by 1,200 developers this month.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#cff4fc" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#0aa2c0" align="left" font-weight="900" padding="0 0 0px">DevHub</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#0aa2c0" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#cff4fc;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#0aa2c0">Monthly update</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">November at DevHub</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px">Thanks for being part of the community. Here's what happened this month.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="4px 34px 28px" background-color="#ffffff">
+      <mj-column vertical-align="top" padding="0 6px 12px" inner-background-color="#cff4fc" inner-border-radius="10px">
+        <mj-spacer height="18px" />
+        <mj-text font-size="26px" line-height="40px" color="#0aa2c0" align="center" font-weight="normal" padding="0 0 2px"><b>12.4k</b></mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="center" font-weight="normal" padding="0 0 0px">Members</mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#146c43" align="center" font-weight="normal" padding="0 0 0px"><b>+1.2k</b></mj-text>
+        <mj-spacer height="18px" />
+      </mj-column>
+      <mj-column vertical-align="top" padding="0 6px 12px" inner-background-color="#cff4fc" inner-border-radius="10px">
+        <mj-spacer height="18px" />
+        <mj-text font-size="26px" line-height="40px" color="#0aa2c0" align="center" font-weight="normal" padding="0 0 2px"><b>3,180</b></mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="center" font-weight="normal" padding="0 0 0px">Posts</mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#146c43" align="center" font-weight="normal" padding="0 0 0px"><b>+18%</b></mj-text>
+        <mj-spacer height="18px" />
+      </mj-column>
+      <mj-column vertical-align="top" padding="0 6px 12px" inner-background-color="#cff4fc" inner-border-radius="10px">
+        <mj-spacer height="18px" />
+        <mj-text font-size="26px" line-height="40px" color="#0aa2c0" align="center" font-weight="normal" padding="0 0 2px"><b>6</b></mj-text>
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="center" font-weight="normal" padding="0 0 0px">Events</mj-text>
+        <mj-spacer height="18px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="28px 40px 0" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="19px" line-height="25px" color="#111827" align="left" font-weight="700" padding="0 0 12px">Coming up</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 32px 12px" background-color="#ffffff">
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#0aa2c0" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#0aa2c0;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Live</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Intro to Rust</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">Thursday, 18:00 GMT</mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 12px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#1f2937" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#1f2937;border-radius:10px;font-size:22px;font-weight:800;color:#ffffff">Meetup</td></tr></table></mj-text>
+        <mj-text font-size="16px" line-height="21px" color="#111827" align="left" font-weight="700" padding="0 0 4px">Casablanca JS</mj-text>
+        <mj-text font-size="14px" line-height="22px" color="#4b5563" align="left" font-weight="normal" padding="0 0 16px">Saturday, 14:00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 32px" background-color="#ffffff">
+      <mj-column>
+        <mj-button href="#" background-color="#0aa2c0" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Join the discussion</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">DevHub &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at DevHub. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

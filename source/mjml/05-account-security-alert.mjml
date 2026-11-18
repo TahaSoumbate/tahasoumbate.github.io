@@ -1,0 +1,60 @@
+<mjml>
+  <mj-head>
+    <mj-title>New sign-in to your account</mj-title>
+    <mj-preview>We noticed a new sign-in from Chrome on Windows.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#f8d7da" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#b02a37" align="left" font-weight="900" padding="0 0 0px">Vaultly</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="12px" line-height="19px" color="#b02a37" align="left" font-weight="normal" padding="0 0 14px"><span style="font-family:Helvetica,Arial,sans-serif;display:inline-block;padding:4px 10px;border-radius:999px;background-color:#f8d7da;font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#b02a37">Security alert</span></mj-text>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="left" font-weight="800" padding="0 0 16px">New sign-in to your account</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px">We noticed a sign-in from a device we don't recognise. Was this you?</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 32px 0" background-color="#f8d7da">
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Device</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>Chrome on Windows</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Location</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>Casablanca, MA</b></mj-text>
+      </mj-column>
+      <mj-column padding="0 8px">
+        <mj-text font-size="13px" line-height="20px" color="#6b7280" align="left" font-weight="normal" padding="0 0 2px">Time</mj-text>
+        <mj-text font-size="15px" line-height="23px" color="#111827" align="left" font-weight="normal" padding="0 0 16px"><b>18 Nov, 09:42</b></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 32px" background-color="#ffffff">
+      <mj-column>
+        <mj-button href="#" background-color="#b02a37" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="left">Secure my account</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="14px" line-height="22px" color="#6b7280" align="left" font-weight="normal" padding="0 0 0px">If this was you, you don't need to do anything.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Vaultly &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Vaultly. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

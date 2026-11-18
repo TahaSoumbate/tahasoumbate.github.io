@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taha Soumbate | HTML Email Developer</title>
+<meta name="description" content="Responsive HTML email templates for Gmail, Outlook and mobile. 30 designs, each built in HTML + CSS, Tailwind, Maizzle, MJML and Bootstrap Email.">
+<meta property="og:title" content="Taha Soumbate | HTML Email Developer">
+<meta property="og:description" content="Open a working inbox with 30 of my email designs, each built 5 ways.">
+<meta property="og:image" content="assets/preview.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#">Taha<span>email developer</span></a>
+  <nav>
+    <a href="#inbox">Designs</a>
+    <a href="#tech">Technologies</a>
+    <a href="#packages">Prices</a>
+    <a class="btn btn-small" data-fiverr href="#">Order on Fiverr</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>I code the emails that land in your customers' inbox.</h1>
+    <p class="lead">I'm Taha, a frontend developer from Morocco. I turn your design or idea into HTML emails that hold together in Gmail, Outlook, Apple Mail and on phones.</p>
+    <p class="lead">Below is a working inbox with 30 of my designs. Each one is built in 5 technologies. Open any email to see it.</p>
+    <div class="actions">
+      <a class="btn" href="#inbox">Open the inbox</a>
+      <a class="btn btn-ghost" data-fiverr href="#">Order on Fiverr</a>
+    </div>
+  </section>
+
+  <!-- The inbox: the whole portfolio, as a mail client -->
+  <section id="inbox" class="mail" aria-label="Email designs">
+    <div class="mail-bar">
+      <strong>Inbox</strong>
+      <span id="count"></span>
+    </div>
+    <div class="mail-body">
+      <nav class="folders" id="folders" aria-label="Email types"></nav>
+      <ul class="list" id="list"></ul>
+      <article class="reader" id="reader" aria-live="polite">
+        <header class="reader-head">
+          <button class="back" id="back" type="button">Back to inbox</button>
+          <div class="reader-meta">
+            <span class="avatar" id="r-avatar"></span>
+            <div>
+              <h2 id="r-subject"></h2>
+              <p id="r-from"></p>
+            </div>
+          </div>
+          <div class="tools">
+            <div class="seg" id="techs" role="group" aria-label="Technology"></div>
+            <div class="seg" role="group" aria-label="Screen size">
+              <button type="button" data-view="desktop" aria-pressed="true">Desktop</button>
+              <button type="button" data-view="phone" aria-pressed="false">Phone</button>
+            </div>
+            <button class="link-btn" id="code-btn" type="button">View code</button>
+            <a class="link-btn" id="open-tab" target="_blank" rel="noopener">Open in new tab</a>
+          </div>
+        </header>
+        <div class="stage" id="stage">
+          <iframe id="frame" title="Email preview" loading="lazy"></iframe>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="tech" class="tech">
+    <h2>Five ways to build the same email</h2>
+    <p class="section-lead">Tell me how your team works and I'll deliver in that format. Every design above exists in all five.</p>
+    <ul class="tech-list" id="tech-list"></ul>
+  </section>
+
+  <section class="steps">
+    <h2>How an order works</h2>
+    <ol>
+      <li><h3>Send your design or idea</h3><p>A Figma link, a PSD, a screenshot of an email you like, or a few lines about what you need. Add your logo and brand colors.</p></li>
+      <li><h3>I code it</h3><p>Table layout, inline CSS, buttons that work in Outlook, and a layout that stacks on phones. You see a preview before delivery.</p></li>
+      <li><h3>You get files ready to send</h3><p>An HTML file you can upload to Mailchimp, Klaviyo, Brevo or any other platform, plus the source file if you want to edit it later.</p></li>
+    </ol>
+  </section>
+
+  <section id="packages" class="packages">
+    <h2>Prices</h2>
+    <div class="plans">
+      <article>
+        <h3>Single email</h3>
+        <p class="price">$20</p>
+        <ul><li>1 responsive email</li><li>HTML file + source file</li><li>2 revisions</li><li>Delivered in 2 days</li></ul>
+        <a class="btn btn-ghost" data-fiverr href="#">Order on Fiverr</a>
+      </article>
+      <article class="pick">
+        <h3>Email pack</h3>
+        <p class="price">$45</p>
+        <ul><li>3 responsive emails</li><li>Built from your design or idea</li><li>Upload to your email platform</li><li>3 revisions</li><li>Delivered in 3 days</li></ul>
+        <a class="btn" data-fiverr href="#">Order on Fiverr</a>
+      </article>
+      <article>
+        <h3>Full email system</h3>
+        <p class="price">$80</p>
+        <ul><li>6 responsive emails</li><li>Editable in your platform</li><li>Upload to your email platform</li><li>5 revisions</li><li>Delivered in 6 days</li></ul>
+        <a class="btn btn-ghost" data-fiverr href="#">Order on Fiverr</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="stamp"><img src="https://github.com/TahaSoumbate.png?size=400" alt="Taha Soumbate" width="160" height="200"></div>
+    <div>
+      <h2>About me</h2>
+      <!-- Write this part in your own words: who you are, what you like building, why clients can trust you. -->
+      <p>I'm Taha, a frontend developer based in Morocco. I build websites with HTML, CSS, JavaScript and modern frameworks, and I specialise in HTML email, the corner of the web where old rules still apply and small mistakes show up in every inbox.</p>
+      <p>I reply fast, I explain things simply, and I don't deliver until the email looks right on desktop and on a phone.</p>
+      <a class="btn" data-fiverr href="#">Message me on Fiverr</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Built by Taha Soumbate. Code on <a href="https://github.com/TahaSoumbate">GitHub</a>. Every email on this page is in the <code>emails/</code> folder of this site, and its source is in <code>source/</code>.</p>
+</footer>
+
+<dialog id="code-dialog" aria-labelledby="code-title">
+  <header>
+    <h2 id="code-title">Code</h2>
+    <div>
+      <button class="link-btn" id="copy-btn" type="button">Copy</button>
+      <button class="link-btn" id="close-btn" type="button">Close</button>
+    </div>
+  </header>
+  <pre><code id="code-box"></code></pre>
+</dialog>
+
+<script src="assets/designs.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your payment didn't go through</mj-title>
+    <mj-preview>Update your card to keep watching.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#f8d7da" width="600px">
+    <mj-section padding="12px 0"><mj-column></mj-column></mj-section>
+    <mj-section padding="28px 40px 20px" background-color="#ffffff" border-radius="12px 12px 0 0">
+      <mj-column>
+        <mj-text font-size="22px" line-height="28px" color="#b02a37" align="left" font-weight="900" padding="0 0 0px">Streamly</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="4px 40px 24px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="left" font-weight="normal" padding="0 0 0px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" valign="middle" height="100" bgcolor="#f8d7da" style="font-family:Helvetica,Arial,sans-serif;height:100px;background-color:#f8d7da;border-radius:10px;font-size:44px;font-weight:800;color:#b02a37">!</td></tr></table></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="8px 40px 28px" background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="30px" line-height="36px" color="#111827" align="center" font-weight="800" padding="0 0 16px">Your payment didn't go through</mj-text>
+        <mj-text font-size="16px" line-height="25px" color="#4b5563" align="center" font-weight="normal" padding="0 0 24px">We couldn't charge your card for this month's Premium plan. Update your payment method to keep watching.</mj-text>
+        <mj-button href="#" background-color="#b02a37" color="#ffffff" border-radius="6px" font-size="16px" font-weight="700" inner-padding="14px 30px" padding="0" align="center">Update payment method</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 28px" background-color="#ffffff">
+      <mj-column background-color="#f8d7da" border-radius="8px" padding="16px 18px" border-left="4px solid #b02a37">
+        <mj-text font-size="15px" line-height="23px" color="#374151" align="left" font-weight="normal" padding="0 0 0px">We'll try again in 3 days. If the payment fails again, your plan will pause.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 40px 8px" background-color="#ffffff" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px 40px" background-color="transparent">
+      <mj-column>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 6px">Streamly &middot; 123 Market Street, Casablanca, Morocco</mj-text>
+        <mj-text font-size="12px" line-height="18px" color="#9ca3af" align="center" font-weight="normal" padding="0 0 0px">You received this email because you signed up at Streamly. <a href="#" style="color:#9ca3af;">Unsubscribe</a> &middot; <a href="#" style="color:#9ca3af;">Preferences</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
