@@ -10,6 +10,8 @@
   --display: "Bricolage Grotesque", "Segoe UI", sans-serif;
   --body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
   --mono: "IBM Plex Mono", Consolas, monospace;
+  --header-bg: rgba(233, 237, 243, .92);
+  --on-accent: #fff;
   color-scheme: light;
 }
 
@@ -25,19 +27,20 @@ button { font: inherit; color: inherit; cursor: pointer; }
 main > section { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 
 /* Buttons */
-.btn { display: inline-block; padding: 12px 22px; border-radius: 999px; background: var(--blue); color: #fff;
+.btn { display: inline-block; padding: 12px 22px; border-radius: 999px; background: var(--blue); color: var(--on-accent);
   font-weight: 600; text-decoration: none; border: 2px solid var(--blue); }
-.btn:hover { background: var(--ink); border-color: var(--ink); }
+.btn:hover { background: var(--ink); border-color: var(--ink); color: var(--mist); }
 .btn-ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
-.btn-ghost:hover { color: #fff; }
+.btn-ghost:hover { color: var(--mist); }
 .btn-small { padding: 7px 16px; font-size: .9rem; }
 .link-btn { background: none; border: 0; padding: 4px 0; color: var(--blue); font-weight: 600; font-size: .9rem;
   text-decoration: underline; text-underline-offset: 3px; }
 
 /* Header */
 .top { position: sticky; top: 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; gap: 16px;
-  padding: 14px 24px; background: rgba(233, 237, 243, .92); backdrop-filter: blur(8px); border-top: 6px solid transparent;
-  border-image: var(--airmail) 6; }
+  padding: 22px 24px 14px; background: var(--header-bg); backdrop-filter: blur(8px); }
+/* top line: airmail on Home, each service page sets its own --topline */
+.top::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: var(--topline-h, 6px); background: var(--topline, var(--airmail)); }
 .brand { font: 800 1.4rem/1 var(--display); color: var(--ink); text-decoration: none; }
 .brand span { font: 500 .85rem var(--body); color: var(--muted); margin-left: 8px; }
 .top nav { display: flex; align-items: center; gap: 20px; }
@@ -117,13 +120,15 @@ main > section { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .steps p { color: var(--muted); }
 
 /* Prices */
-.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; align-items: start; }
-.plans article { background: var(--paper); padding: 28px; border-radius: 6px; display: grid; gap: 14px; border: 1px solid var(--line); }
-.plans article.pick { border: 8px solid transparent; border-image: var(--airmail) 8; }
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; align-items: stretch; }
+/* every card has the same 8px border so text and buttons line up; only the picked card shows it */
+.plans article { background: var(--paper); padding: 22px; border-radius: 6px; display: flex; flex-direction: column; gap: 14px;
+  border: 8px solid var(--paper); box-shadow: 0 0 0 1px var(--line); }
+.plans article.pick { border-color: transparent; border-image: var(--airmail) 8; box-shadow: none; }
 .plans h3 { font-size: 1.3rem; }
 .price { font: 800 2.8rem/1 var(--display); }
 .plans ul { margin: 0; padding-left: 18px; color: var(--muted); display: grid; gap: 4px; }
-.plans .btn { justify-self: start; }
+.plans .btn { margin-top: auto; align-self: flex-start; }
 
 /* About: a postage stamp */
 .about { display: grid; grid-template-columns: 180px 1fr; gap: 40px; align-items: start; }
@@ -149,7 +154,7 @@ dialog pre { flex: 1; margin: 0; overflow: auto; padding: 18px; background: #f6f
 /* Tablet and phone */
 @media (max-width: 899px) {
   .top { flex-wrap: wrap; }
-  .top nav { width: 100%; overflow-x: auto; gap: 16px; padding-bottom: 4px; }
+  .top nav { width: 100%; flex-wrap: wrap; gap: 8px 18px; }
   .top nav a { flex: none; font-size: .95rem; }
   .hero { padding-top: 40px !important; }
   .mail { margin: 0 12px 72px !important; border-width: 6px; border-image: var(--airmail) 6; }
@@ -204,3 +209,110 @@ dialog pre { flex: 1; margin: 0; overflow: auto; padding: 18px; background: #f6f
 .checks li::before { content: "✓"; position: absolute; left: 0; color: var(--blue); font-weight: 800; }
 .checks li b { color: var(--ink); }
 @media (max-width: 899px) { .cards, .checks ul { grid-template-columns: 1fr; } .frames iframe { height: 560px; } }
+
+/* ================= Bug fixes: red pen on graph paper ================= */
+.p-bugs { --mist: #eef1f6; --header-bg: rgba(238, 241, 246, .94); --blue: #1d3a9e; --red: #c8321f; --line: #cfd6e2;
+  --display: "IBM Plex Mono", Consolas, monospace; --mark: #fff1a8;
+  background-image: linear-gradient(rgba(29, 58, 158, .06) 1px, transparent 1px), linear-gradient(90deg, rgba(29, 58, 158, .06) 1px, transparent 1px);
+  background-size: 24px 24px; }
+.p-bugs h1, .p-bugs h2 { font-weight: 600; letter-spacing: -.03em; }
+.p-bugs .hero h1 { font-size: clamp(2rem, 5vw, 3.6rem); max-width: 20ch; }
+.p-bugs .brand { font-family: "Bricolage Grotesque", sans-serif; }
+.p-bugs .btn { border-radius: 4px; }
+.p-bugs .demo-note { background: var(--mark); color: #4a3d00; }
+.p-bugs .frames figcaption { font-family: var(--display); }
+.p-bugs .frames figure:first-child iframe { border-color: var(--red); }
+.p-bugs .frames figure:last-child iframe { border-color: #1f7a4d; }
+.bugs { list-style: none; padding: 0; margin: 32px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 20px;
+  counter-reset: bug; }
+.bugs li { counter-increment: bug; background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--red); border-radius: 4px;
+  padding: 20px 20px 20px 64px; position: relative; display: grid; gap: 8px; align-content: start; }
+.bugs li::before { content: counter(bug); position: absolute; left: 16px; top: 18px; width: 32px; height: 32px; display: grid; place-items: center;
+  border: 2px solid var(--red); border-radius: 50%; color: var(--red); font: 600 .95rem var(--display); transform: rotate(-8deg); }
+.bugs h3 { font-family: var(--body); font-size: 1.1rem; }
+.bugs p { color: var(--muted); }
+.diff { margin: 4px 0 0; font: 400 .82rem/1.6 var(--mono); white-space: pre-wrap; word-break: break-word; display: grid; border-radius: 4px; overflow: hidden; }
+.diff del, .diff ins { display: block; padding: 6px 10px 6px 28px; text-decoration: none; position: relative; }
+.diff del { background: #fde8e5; color: #8a1f12; }
+.diff ins { background: #e3f4ea; color: #145234; }
+.diff del::before, .diff ins::before { position: absolute; left: 10px; font-weight: 600; }
+.diff del::before { content: "\2212"; }
+.diff ins::before { content: "+"; }
+.p-bugs .plans article.pick { border-image: none; border-color: var(--red); }
+
+/* ================= Figma to HTML: the design canvas ================= */
+.p-figma { --mist: #efefec; --header-bg: rgba(239, 239, 236, .94); --ink: #1e1e1e; --muted: #5b5b57; --line: #d6d6d1;
+  --blue: #0a64c2; --red: #f24822; --sel: #0d99ff; --display: "Instrument Sans", "Segoe UI", sans-serif;
+  background-image: radial-gradient(#c5c5bf 1px, transparent 1.2px); background-size: 20px 20px; }
+.p-figma h1, .p-figma h2 { font-weight: 700; letter-spacing: -.035em; }
+.p-figma .brand { font-family: "Bricolage Grotesque", sans-serif; }
+.p-figma .hero h1 { font-size: clamp(2.4rem, 6.5vw, 5rem); max-width: 13ch; }
+.p-figma .btn { border-radius: 6px; }
+.p-figma .demo-note { background: #e6f3ff; color: #064a8c; }
+/* a selected frame: frame name above, blue outline with corner handles, size badge below */
+.sel { position: relative; }
+.sel figcaption { font: 500 .8rem var(--body); color: var(--muted); }
+.sel .handles { position: relative; display: block; outline: 1px solid var(--sel); line-height: 0; }
+.sel .handles iframe { border: 0 !important; border-radius: 0 !important; display: block; }
+.sel .handles i { position: absolute; width: 8px; height: 8px; background: #fff; border: 1px solid var(--sel); }
+.sel .handles i:nth-child(1) { left: -4px; top: -4px; } .sel .handles i:nth-child(2) { right: -4px; top: -4px; }
+.sel .handles i:nth-child(3) { left: -4px; bottom: -4px; } .sel .handles i:nth-child(4) { right: -4px; bottom: -4px; }
+.sel::after { content: attr(data-size); justify-self: center; padding: 2px 8px; border-radius: 4px;
+  background: var(--sel); color: #fff; font: 600 .75rem var(--body); }
+.p-figma .frames.phone .sel { justify-items: center; }
+.p-figma .frames.phone .sel .handles { width: min(375px, 100%); }
+.p-figma .frames.phone .sel iframe { width: 100%; max-width: none; height: 700px; }
+.p-figma .checks ul { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 8px 24px; gap: 0 32px; }
+.p-figma .checks li { padding: 14px 0 14px 28px; border-bottom: 1px solid var(--line); }
+.p-figma .checks li::before { content: ""; top: 21px; width: 12px; height: 12px; border: 1.5px solid var(--sel); border-radius: 2px; }
+.p-figma .steps li::before { border-color: var(--sel); color: var(--blue); border-style: solid; border-radius: 6px; }
+.p-figma .plans article.pick { border-image: none; border-color: var(--sel); }
+
+/* ================= Landing pages: deep teal, sunflower accent ================= */
+.p-landing { --mist: #0d3a42; --header-bg: rgba(13, 58, 66, .94); --paper: #12505a; --ink: #f2f7f6; --muted: #b9d3d0; --line: #2b6872;
+  --blue: #ffd23f; --red: #ffd23f; --on-accent: #0d3a42; --display: "Fraunces", Georgia, serif; color-scheme: dark; }
+.p-landing a:not(.btn) { color: var(--blue); }
+.p-landing .top nav a:not(.btn) { color: var(--ink); }
+.p-landing .top nav a[aria-current="page"] { color: var(--blue); }
+.p-landing .brand { font-family: "Bricolage Grotesque", sans-serif; color: var(--ink); }
+.p-landing h1, .p-landing h2 { font-weight: 800; letter-spacing: -.02em; }
+.p-landing .hero h1 { font-size: clamp(2.6rem, 7vw, 5.6rem); max-width: 15ch; line-height: 1.02; }
+.p-landing .btn-ghost { color: var(--ink); border-color: var(--ink); }
+.p-landing .demo-note { background: var(--blue); color: var(--mist); }
+.p-landing .frames iframe { border: 0; box-shadow: 0 30px 60px -30px rgba(0, 0, 0, .6); }
+.p-landing .frames.phone iframe { border: 10px solid #061e23; }
+.anatomy { list-style: none; padding: 0; margin: 32px 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px 32px; counter-reset: part; }
+.anatomy li { counter-increment: part; display: grid; grid-template-columns: 44px 1fr; gap: 4px 14px; align-content: start; }
+.anatomy h3, .anatomy p { grid-column: 2; }
+.anatomy li::before { content: counter(part); grid-column: 1; grid-row: 1 / span 2; width: 44px; height: 44px; border-radius: 50% 50% 50% 0; display: grid; place-items: center;
+  background: var(--blue); color: var(--mist); font: 800 1.1rem var(--display); }
+.anatomy h3 { font-family: var(--body); font-size: 1.1rem; font-weight: 600; }
+.anatomy p { color: var(--muted); }
+.p-landing .steps li::before { border-style: solid; }
+.p-landing .plans article { box-shadow: none; }
+.p-landing .plans article.pick { border-image: none; border-color: var(--blue); }
+.p-landing .foot { border-top-color: var(--line); }
+
+@media (max-width: 899px) {
+  .anatomy { grid-template-columns: 1fr; }
+  .bugs li { padding-left: 58px; }
+}
+@media (max-width: 899px) and (min-width: 600px) { .anatomy { grid-template-columns: 1fr 1fr; } }
+
+/* ================= Top lines per page ================= */
+/* Emails: the perforated edge of a postage stamp */
+.p-emails { --topline-h: 9px; --topline: radial-gradient(circle at 6px 100%, var(--mist) 3px, transparent 3.5px) 0 0 / 12px 100% repeat-x, var(--blue); }
+/* Bug fixes: the red squiggle under a spelling mistake */
+.p-bugs { --topline-h: 7px; --topline: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7'%3E%3Cpath d='M0 4.5 Q3 0.5 6 4.5 T12 4.5' fill='none' stroke='%23c8321f' stroke-width='1.8'/%3E%3C/svg%3E") 0 0 / 12px 7px repeat-x; }
+/* Figma: the ruler along the top of the canvas */
+.p-figma { --topline-h: 10px; --topline:
+  repeating-linear-gradient(90deg, #5b5b57 0 1px, transparent 1px 100px) left bottom / 100% 10px no-repeat,
+  repeating-linear-gradient(90deg, #9a9a94 0 1px, transparent 1px 10px) left bottom / 100% 5px no-repeat,
+  #e4e4e0; }
+/* Landing: a progress bar that fills as you scroll the page */
+.p-landing { --topline-h: 6px; --topline: #0a2c33; }
+.p-landing .top::after { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 6px; background: var(--blue); transform-origin: left; }
+@supports (animation-timeline: scroll()) {
+  .p-landing .top::after { animation: fill-bar linear both; animation-timeline: scroll(root); }
+  @keyframes fill-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+}
