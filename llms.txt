@@ -3,8 +3,8 @@
 > Taha Soumbate is a frontend developer based in Morocco. He codes responsive HTML email templates that work in Gmail, Outlook, Apple Mail and on phones, and sells his services on Fiverr (profile: https://www.fiverr.com/tahadigitalab). He speaks English, French and Arabic.
 
 ## Services (all ordered through Fiverr)
-- HTML email templates, from $20: https://www.fiverr.com/s/jyeWxGv
-- Bug fixes and mobile layout repairs, from $10: https://www.fiverr.com/tahadigitalab
+- HTML email templates, from $20: https://www.fiverr.com/tahadigitalab/code-responsive-email-templates
+- Bug fixes and mobile layout repairs, from $10: https://www.fiverr.com/tahadigitalab/fix-web-page-bugs-and-responsive-mobile-layout-issues
 - Figma or design to HTML, Tailwind or Bootstrap, from $30: https://www.fiverr.com/tahadigitalab
 - Landing pages in HTML + Tailwind or React, from $40: https://www.fiverr.com/tahadigitalab
 
