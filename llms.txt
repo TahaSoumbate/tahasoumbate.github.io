@@ -9,11 +9,12 @@
 - Landing pages in HTML + Tailwind or React, from $40: https://www.fiverr.com/tahadigitalab
 
 ## Pages
-- [Home](https://tahasoumbate.github.io/HTML-Email-Templates/): who Taha is and his 4 services.
-- [HTML email templates](https://tahasoumbate.github.io/HTML-Email-Templates/emails.html): a working inbox with 30 email designs, each built in 5 technologies (HTML + CSS, Tailwind, Maizzle, MJML, Bootstrap Email).
-- [Bug fixes](https://tahasoumbate.github.io/HTML-Email-Templates/bug-fixes.html): a live before/after demo of a page with 5 bugs fixed and explained.
-- [Figma to HTML](https://tahasoumbate.github.io/HTML-Email-Templates/figma-to-html.html): a live demo agency homepage coded in HTML + CSS.
-- [Landing pages](https://tahasoumbate.github.io/HTML-Email-Templates/landing-pages.html): a live demo landing page for a budget app.
-- [Source code](https://github.com/TahaSoumbate/HTML-Email-Templates)
+- [Home](https://tahasoumbate.github.io/): who Taha is and his 4 services.
+- [HTML email templates](https://tahasoumbate.github.io/emails.html): a working inbox with 30 email designs, each built in 5 technologies (HTML + CSS, Tailwind, Maizzle, MJML, Bootstrap Email).
+- [Bug fixes](https://tahasoumbate.github.io/bug-fixes.html): a live before/after demo of a page with 5 bugs fixed and explained.
+- [Figma to HTML](https://tahasoumbate.github.io/figma-to-html.html): a live demo agency homepage coded in HTML + CSS.
+- [Landing pages](https://tahasoumbate.github.io/landing-pages.html): a live demo landing page for a budget app.
+- [LinkedIn](https://www.linkedin.com/in/taha-soumbate/)
+- [Source code](https://github.com/TahaSoumbate/tahasoumbate.github.io)
 
 The demo pages use made-up brands; they are demos, not client work.
