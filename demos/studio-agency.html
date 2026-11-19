@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Demo: Northpeak Studio agency homepage</title>
+<style>
+:root { --ink: #121212; --muted: #5d5d5d; --lime: #d8f36a; --bg: #f7f6f2; --card: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+a { color: inherit; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 22px 0; }
+.logo { font-weight: 800; font-size: 22px; letter-spacing: -.5px; text-decoration: none; }
+.logo span { background: var(--lime); padding: 0 6px; border-radius: 4px; }
+nav { display: flex; gap: 28px; align-items: center; }
+nav a { text-decoration: none; font-weight: 500; }
+.pill { display: inline-block; padding: 12px 24px; border-radius: 999px; background: var(--ink); color: #fff; text-decoration: none; font-weight: 600; }
+.pill.light { background: var(--lime); color: var(--ink); }
+.menu-btn { display: none; padding: 8px 14px; border: 2px solid var(--ink); border-radius: 999px; background: none; font: inherit; font-weight: 600; }
+:focus-visible { outline: 3px solid #4b6bfb; outline-offset: 3px; }
+.hero { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: center; padding: 56px 0 72px; }
+.hero h1 { font-size: clamp(40px, 7vw, 76px); line-height: 1; letter-spacing: -2px; margin: 0 0 20px; }
+.hero p { font-size: 19px; color: var(--muted); max-width: 44ch; margin: 0 0 28px; }
+.art { aspect-ratio: 1; border-radius: 28px; background: var(--lime); position: relative; overflow: hidden; }
+.art::before { content: ""; position: absolute; width: 70%; height: 70%; right: -10%; bottom: -10%; border-radius: 50%; background: var(--ink); }
+.art::after { content: ""; position: absolute; width: 34%; height: 34%; left: 12%; top: 12%; border-radius: 12px; background: #fff; transform: rotate(12deg); }
+h2 { font-size: clamp(28px, 4vw, 42px); letter-spacing: -1px; line-height: 1.1; margin: 0 0 28px; }
+.services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding-bottom: 80px; }
+.services article { background: var(--card); border-radius: 20px; padding: 28px; }
+.services b { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--lime); margin-bottom: 16px; }
+.services h3 { margin: 0 0 8px; font-size: 21px; }
+.services p { margin: 0; color: var(--muted); }
+.work { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding-bottom: 80px; }
+.tile { border-radius: 20px; min-height: 240px; padding: 24px; display: flex; flex-direction: column; justify-content: flex-end; color: #fff; }
+.tile h3 { margin: 0; font-size: 22px; }
+.tile p { margin: 0; opacity: .85; }
+.t1 { background: linear-gradient(135deg, #1f3c88, #4b6bfb); }
+.t2 { background: linear-gradient(135deg, #7a2e2e, #e0674f); }
+.t3 { background: linear-gradient(135deg, #1b5e4a, #3fb68b); }
+.t4 { background: linear-gradient(135deg, #3d2a6b, #9b6ef3); }
+.cta { background: var(--ink); color: #fff; border-radius: 28px; padding: clamp(32px, 6vw, 64px); text-align: center; margin-bottom: 56px; }
+.cta p { color: #c9c9c9; margin: 0 0 24px; }
+footer { padding: 0 0 40px; color: var(--muted); font-size: 14px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+@media (max-width: 820px) {
+  .hero, .services, .work { grid-template-columns: 1fr; }
+  .art { max-width: 360px; }
+  .menu-btn { display: block; }
+  nav { display: none; width: 100%; flex-direction: column; align-items: flex-start; gap: 14px; }
+  nav.open { display: flex; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="#">north<span>peak</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Main">
+      <a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a>
+      <a class="pill" href="#contact">Start a project</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>We design brands that grow</h1>
+      <p>Logos, websites and social media for small businesses that want to look as good as they are.</p>
+      <a class="pill" href="#work">See our work</a>
+    </div>
+    <div class="art" role="img" aria-label="Abstract shapes in lime, black and white"></div>
+  </section>
+
+  <section id="services">
+    <h2>What we do</h2>
+    <div class="services">
+      <article><b>01</b><h3>Brand identity</h3><p>Logo, colors and fonts that make you easy to remember.</p></article>
+      <article><b>02</b><h3>Websites</h3><p>Fast, simple sites that turn visitors into customers.</p></article>
+      <article><b>03</b><h3>Social media</h3><p>Post templates that keep your feed looking like you.</p></article>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2>Selected work</h2>
+    <div class="work">
+      <div class="tile t1"><p>Branding</p><h3>Harbor Coffee</h3></div>
+      <div class="tile t2"><p>Website</p><h3>Red Fern Yoga</h3></div>
+      <div class="tile t3"><p>Social media</p><h3>Green Basket Market</h3></div>
+      <div class="tile t4"><p>Branding + website</p><h3>Violet Dental</h3></div>
+    </div>
+  </section>
+
+  <section id="contact" class="cta">
+    <h2>Got a project in mind?</h2>
+    <p>Tell us about your business and we'll reply within a day.</p>
+    <a class="pill light" href="#">Start a project</a>
+  </section>
+
+  <footer><span>Demo page coded by Taha Soumbate in HTML + CSS.</span><span>Northpeak and the projects shown are not real.</span></footer>
+</div>
+<script>
+const btn = document.querySelector(".menu-btn");
+btn.addEventListener("click", () => btn.setAttribute("aria-expanded", String(document.getElementById("menu").classList.toggle("open"))));
+</script>
+</body>
+</html>

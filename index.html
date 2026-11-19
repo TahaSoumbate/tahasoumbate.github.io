@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Taha Soumbate | HTML Email Developer for Gmail & Outlook</title>
-<meta name="description" content="Taha Soumbate, frontend developer in Morocco. I code responsive HTML email templates for Gmail, Outlook and phones: 30 designs, each in HTML + CSS, Tailwind, Maizzle, MJML and Bootstrap Email. Hire me on Fiverr.">
-<!-- shortcut: SITE URL is written in this file, sitemap.xml, robots.txt and llms.txt; find-replace all 4 if the repo is renamed -->
+<title>Taha Soumbate | Frontend Developer: HTML Emails, Bug Fixes, Figma to HTML, Landing Pages</title>
+<meta name="description" content="Taha Soumbate, frontend developer in Morocco. I code responsive HTML email templates, fix website bugs and mobile layouts, turn Figma designs into HTML, and build landing pages. See live demos and hire me on Fiverr.">
+<!-- shortcut: SITE URL is written in every page, sitemap.xml, robots.txt and llms.txt; find-replace them all if the repo is renamed -->
 <link rel="canonical" href="https://tahasoumbate.github.io/HTML-Email-Templates/">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://tahasoumbate.github.io/HTML-Email-Templates/">
-<meta property="og:title" content="Taha Soumbate | HTML Email Developer for Gmail & Outlook">
-<meta property="og:description" content="Open a working inbox with 30 of my email designs, each built 5 ways.">
+<meta property="og:title" content="Taha Soumbate | Frontend Developer">
+<meta property="og:description" content="HTML emails, bug fixes, Figma to HTML and landing pages. Live demos of each.">
 <meta property="og:image" content="https://tahasoumbate.github.io/HTML-Email-Templates/assets/preview.jpg">
 <meta property="og:image:alt" content="The portfolio inbox showing a list of email designs next to an open email">
 <meta name="twitter:card" content="summary_large_image">
@@ -25,7 +25,7 @@
   "description": "Frontend developer based in Morocco who codes responsive HTML email templates, fixes website bugs and mobile layouts, turns Figma designs into HTML, and builds landing pages. Works through Fiverr.",
   "address": { "@type": "PostalAddress", "addressCountry": "MA" },
   "knowsLanguage": ["English", "French", "Arabic"],
-  "knowsAbout": ["HTML email templates", "Email development for Outlook and Gmail", "MJML", "Maizzle", "Tailwind CSS", "Bootstrap Email", "HTML", "CSS", "JavaScript", "Responsive web design", "Figma to HTML", "Landing pages", "React"],
+  "knowsAbout": ["HTML email templates", "Email development for Outlook and Gmail", "MJML", "Maizzle", "Tailwind CSS", "Bootstrap Email", "HTML", "CSS", "JavaScript", "Responsive web design", "Website bug fixing", "Figma to HTML", "Landing pages", "React"],
   "sameAs": [
     "https://www.fiverr.com/tahadigitalab",
     "https://github.com/TahaSoumbate"
@@ -40,109 +40,43 @@
 <body>
 
 <header class="top">
-  <a class="brand" href="#">Taha<span>email developer</span></a>
-  <nav>
-    <a href="#inbox">Designs</a>
-    <a href="#tech">Technologies</a>
-    <a href="#services">Services</a>
-    <a href="#packages">Prices</a>
-    <a class="btn btn-small" data-fiverr href="#">Order on Fiverr</a>
+  <a class="brand" href="./">Taha<span>frontend &amp; email developer</span></a>
+  <nav aria-label="Main">
+    <a href="emails.html">Emails</a>
+    <a href="bug-fixes.html">Bug fixes</a>
+    <a href="figma-to-html.html">Figma to HTML</a>
+    <a href="landing-pages.html">Landing pages</a>
+    <a class="btn btn-small" href="https://www.fiverr.com/tahadigitalab" target="_blank" rel="noopener">Hire me on Fiverr</a>
   </nav>
 </header>
 
 <main>
   <section class="hero">
-    <h1>I code the emails that land in your customers' inbox.</h1>
-    <p class="lead">I'm Taha, a frontend developer from Morocco. I turn your design or idea into HTML emails that hold together in Gmail, Outlook, Apple Mail and on phones.</p>
-    <p class="lead">Below is a working inbox with 30 of my designs. Each one is built in 5 technologies. Open any email to see it.</p>
+    <h1>I build and fix the parts of the web your customers see.</h1>
+    <p class="lead">I'm Taha Soumbate, a frontend developer from Morocco. I code HTML emails that work in Gmail and Outlook, fix broken websites, turn Figma designs into real pages, and build landing pages.</p>
+    <p class="lead">Every service below has a live demo you can open and test. I work through Fiverr, so your payment is protected.</p>
     <div class="actions">
-      <a class="btn" href="#inbox">Open the inbox</a>
-      <a class="btn btn-ghost" data-fiverr href="#">Order on Fiverr</a>
+      <a class="btn" href="#services">See my services</a>
+      <a class="btn btn-ghost" href="https://www.fiverr.com/tahadigitalab" target="_blank" rel="noopener">Hire me on Fiverr</a>
     </div>
   </section>
 
-  <!-- The inbox: the whole portfolio, as a mail client -->
-  <section id="inbox" class="mail" aria-label="Email designs">
-    <div class="mail-bar">
-      <strong>Inbox</strong>
-      <span id="count"></span>
+  <section id="services" class="services">
+    <h2>What I can do for you</h2>
+    <div class="cards">
+      <a href="emails.html"><h3>HTML email templates</h3><p>Responsive emails for Gmail, Outlook, Apple Mail and phones. 30 designs to open, each built 5 ways.</p><span class="more">See the emails · from $20</span></a>
+      <a href="bug-fixes.html"><h3>Bug fixes and mobile layout</h3><p>Broken menu, text off the screen, a button that does nothing. I find it, fix it and tell you what was wrong.</p><span class="more">See a before and after · from $10</span></a>
+      <a href="figma-to-html.html"><h3>Figma or design to HTML</h3><p>Your Figma, PSD or screenshot turned into a clean, responsive page in HTML, Tailwind or Bootstrap.</p><span class="more">See a demo page · from $30</span></a>
+      <a href="landing-pages.html"><h3>Landing pages</h3><p>A fast one-page site that explains your product and gets sign-ups. HTML + Tailwind or React.</p><span class="more">See a demo landing page · from $40</span></a>
     </div>
-    <div class="mail-body">
-      <nav class="folders" id="folders" aria-label="Email types"></nav>
-      <ul class="list" id="list"></ul>
-      <article class="reader" id="reader" aria-live="polite">
-        <header class="reader-head">
-          <button class="back" id="back" type="button">Back to inbox</button>
-          <div class="reader-meta">
-            <span class="avatar" id="r-avatar"></span>
-            <div>
-              <h2 id="r-subject"></h2>
-              <p id="r-from"></p>
-            </div>
-          </div>
-          <div class="tools">
-            <div class="seg" id="techs" role="group" aria-label="Technology"></div>
-            <div class="seg" role="group" aria-label="Screen size">
-              <button type="button" data-view="desktop" aria-pressed="true">Desktop</button>
-              <button type="button" data-view="phone" aria-pressed="false">Phone</button>
-            </div>
-            <button class="link-btn" id="code-btn" type="button">View code</button>
-            <a class="link-btn" id="open-tab" target="_blank" rel="noopener">Open in new tab</a>
-          </div>
-        </header>
-        <div class="stage" id="stage">
-          <iframe id="frame" title="Email preview" loading="lazy"></iframe>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section id="tech" class="tech">
-    <h2>Five ways to build the same email</h2>
-    <p class="section-lead">Tell me how your team works and I'll deliver in that format. Every design above exists in all five.</p>
-    <ul class="tech-list" id="tech-list"></ul>
   </section>
 
   <section class="steps">
     <h2>How an order works</h2>
     <ol>
-      <li><h3>Send your design or idea</h3><p>A Figma link, a PSD, a screenshot of an email you like, or a few lines about what you need. Add your logo and brand colors.</p></li>
-      <li><h3>I code it</h3><p>Table layout, inline CSS, buttons that work in Outlook, and a layout that stacks on phones. You see a preview before delivery.</p></li>
-      <li><h3>You get files ready to send</h3><p>An HTML file you can upload to Mailchimp, Klaviyo, Brevo or any other platform, plus the source file if you want to edit it later.</p></li>
-    </ol>
-  </section>
-
-  <section id="packages" class="packages">
-    <h2>Prices</h2>
-    <div class="plans">
-      <article>
-        <h3>Single email</h3>
-        <p class="price">$20</p>
-        <ul><li>1 responsive email</li><li>HTML file + source file</li><li>2 revisions</li><li>Delivered in 2 days</li></ul>
-        <a class="btn btn-ghost" data-fiverr href="#">Order on Fiverr</a>
-      </article>
-      <article class="pick">
-        <h3>Email pack</h3>
-        <p class="price">$45</p>
-        <ul><li>3 responsive emails</li><li>Built from your design or idea</li><li>Upload to your email platform</li><li>3 revisions</li><li>Delivered in 3 days</li></ul>
-        <a class="btn" data-fiverr href="#">Order on Fiverr</a>
-      </article>
-      <article>
-        <h3>Full email system</h3>
-        <p class="price">$80</p>
-        <ul><li>6 responsive emails</li><li>Editable in your platform</li><li>Upload to your email platform</li><li>5 revisions</li><li>Delivered in 6 days</li></ul>
-        <a class="btn btn-ghost" data-fiverr href="#">Order on Fiverr</a>
-      </article>
-    </div>
-  </section>
-
-  <section id="services" class="steps">
-    <h2>What I can do for you</h2>
-    <ol>
-      <li><h3>HTML email templates</h3><p>Responsive emails for Gmail, Outlook, Apple Mail and phones, from your design or idea. From $20.</p><a class="link-btn" data-fiverr href="#">Hire me on Fiverr</a></li>
-      <li><h3>Bug fixes and mobile layout</h3><p>I fix broken HTML, CSS and JavaScript, and make pages that break on phones look right again. From $10.</p><a class="link-btn" href="https://www.fiverr.com/tahadigitalab/fix-web-page-bugs-and-responsive-mobile-layout-issues" target="_blank" rel="noopener">Hire me on Fiverr</a></li>
-      <li><h3>Figma or design to HTML</h3><p>Your Figma, PSD or screenshot turned into a responsive page in HTML, Tailwind or Bootstrap. From $30.</p><a class="link-btn" href="https://www.fiverr.com/tahadigitalab" target="_blank" rel="noopener">Hire me on Fiverr</a></li>
-      <li><h3>Landing pages</h3><p>A fast one-page site in HTML + Tailwind or React, ready to put online. From $40.</p><a class="link-btn" href="https://www.fiverr.com/tahadigitalab" target="_blank" rel="noopener">Hire me on Fiverr</a></li>
+      <li><h3>Message me on Fiverr</h3><p>Tell me what you need. Send a design, a link to the broken page, or a few lines about your idea.</p></li>
+      <li><h3>I build or fix it</h3><p>I keep you updated and send a preview before delivery, so you can ask for changes.</p></li>
+      <li><h3>You get the files</h3><p>Clean code you can upload yourself, plus a short note on what I did.</p></li>
     </ol>
   </section>
 
@@ -152,28 +86,15 @@
       <h2>About me</h2>
       <!-- Write this part in your own words: who you are, what you like building, why clients can trust you. -->
       <p>I'm Taha, a frontend developer based in Morocco. I build websites with HTML, CSS, JavaScript and modern frameworks, and I specialise in HTML email, the corner of the web where old rules still apply and small mistakes show up in every inbox.</p>
-      <p>I reply fast, I explain things simply, and I don't deliver until the email looks right on desktop and on a phone.</p>
-      <a class="btn" data-fiverr href="#">Message me on Fiverr</a>
+      <p>I reply fast, I explain things simply, and I don't deliver until the page or email looks right on desktop and on a phone. I speak English, French and Arabic.</p>
+      <a class="btn" href="https://www.fiverr.com/tahadigitalab" target="_blank" rel="noopener">Message me on Fiverr</a>
     </div>
   </section>
 </main>
 
 <footer class="foot">
-  <p>Built by Taha Soumbate. Code on <a href="https://github.com/TahaSoumbate">GitHub</a>. Every email on this page is in the <code>emails/</code> folder of this site, and its source is in <code>source/</code>.</p>
+  <p>Built by Taha Soumbate, frontend developer in Morocco. <a href="./">Home</a> · <a href="https://www.fiverr.com/tahadigitalab">Fiverr</a> · <a href="https://github.com/TahaSoumbate">GitHub</a></p>
 </footer>
 
-<dialog id="code-dialog" aria-labelledby="code-title">
-  <header>
-    <h2 id="code-title">Code</h2>
-    <div>
-      <button class="link-btn" id="copy-btn" type="button">Copy</button>
-      <button class="link-btn" id="close-btn" type="button">Close</button>
-    </div>
-  </header>
-  <pre><code id="code-box"></code></pre>
-</dialog>
-
-<script src="assets/designs.js"></script>
-<script src="assets/app.js"></script>
 </body>
 </html>

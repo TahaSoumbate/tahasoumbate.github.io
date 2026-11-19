@@ -1,6 +1,6 @@
-# Taha Soumbate, HTML email developer
+# Taha Soumbate, frontend and HTML email developer
 
-> Taha Soumbate is a frontend developer based in Morocco. He codes responsive HTML email templates that work in Gmail, Outlook, Apple Mail and on phones, and sells his services on Fiverr (profile: https://www.fiverr.com/tahadigitalab). He speaks English, French and Arabic.
+> Taha Soumbate is a frontend developer based in Morocco. He codes responsive HTML email templates that work in Gmail, Outlook, Apple Mail and on phones, fixes website bugs and mobile layouts, turns Figma designs into HTML, and builds landing pages. He sells his services on Fiverr (profile: https://www.fiverr.com/tahadigitalab). He speaks English, French and Arabic.
 
 ## Services (all ordered through Fiverr)
 - HTML email templates, from $20: https://www.fiverr.com/tahadigitalab/code-responsive-email-templates
@@ -8,6 +8,12 @@
 - Figma or design to HTML, Tailwind or Bootstrap, from $30: https://www.fiverr.com/tahadigitalab
 - Landing pages in HTML + Tailwind or React, from $40: https://www.fiverr.com/tahadigitalab
 
-## Work
-- [Portfolio](https://tahasoumbate.github.io/HTML-Email-Templates/): a working inbox with 30 email designs (account, newsletter, payment, e-commerce, notification, survey, report), each built in 5 technologies: hand-coded HTML + CSS, Tailwind, Maizzle, MJML and Bootstrap Email.
-- [Source code](https://github.com/TahaSoumbate/HTML-Email-Templates): the compiled emails and their source files.
+## Pages
+- [Home](https://tahasoumbate.github.io/HTML-Email-Templates/): who Taha is and his 4 services.
+- [HTML email templates](https://tahasoumbate.github.io/HTML-Email-Templates/emails.html): a working inbox with 30 email designs, each built in 5 technologies (HTML + CSS, Tailwind, Maizzle, MJML, Bootstrap Email).
+- [Bug fixes](https://tahasoumbate.github.io/HTML-Email-Templates/bug-fixes.html): a live before/after demo of a page with 5 bugs fixed and explained.
+- [Figma to HTML](https://tahasoumbate.github.io/HTML-Email-Templates/figma-to-html.html): a live demo agency homepage coded in HTML + CSS.
+- [Landing pages](https://tahasoumbate.github.io/HTML-Email-Templates/landing-pages.html): a live demo landing page for a budget app.
+- [Source code](https://github.com/TahaSoumbate/HTML-Email-Templates)
+
+The demo pages use made-up brands; they are demos, not client work.
