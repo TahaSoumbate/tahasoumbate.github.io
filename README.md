@@ -1,6 +1,6 @@
 # HTML Email Templates by Taha Soumbate
 
-**Live portfolio:** https://tahasoumbate.github.io/email-portfolio/
+**Live portfolio:** https://tahasoumbate.github.io/HTML-Email-Templates/
 
 30 responsive email designs (account, newsletter, payment, e-commerce, notification, survey and report emails), each built in 5 technologies:
 

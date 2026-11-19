@@ -1,0 +1,6 @@
+# Note: crawlers only read robots.txt at the root of a domain.
+# On a project site (username.github.io/repo/) this file is ignored; it starts working if the site moves to the root.
+User-agent: *
+Allow: /
+
+Sitemap: https://tahasoumbate.github.io/HTML-Email-Templates/sitemap.xml
